@@ -12,7 +12,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import sent_tokenize
 from unidecode import unidecode
 
-documents = open('c:\\temp\\ic\\Sustentabilidade.txt', encoding="utf-8").read()
+documents = open('Sustentabilidade.txt', encoding="utf-8").read()
 S=nltk.corpus.stopwords.words('portuguese')
 sentencas = sent_tokenize(documents, language='portuguese')
 print(sentencas)
